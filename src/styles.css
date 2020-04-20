@@ -1,0 +1,43 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.red {
+    color: #e35e6b;
+}
+
+.pink {
+    color: #F411A8;
+}
+
+.btn-pink {
+    background-color: #F411A8;
+    color: #FFF;
+}
+
+.v-middle {
+    vertical-align: middle;
+}
+
+.msg-success {
+    background-color:#228B22;
+    color: #FFF;
+}
+
+.msg-error {
+    background-color: #8B0000;
+    color: #FFF;
+}
+
+* /deep/ .mat-form-field.mat-focused .mat-form-field-label {
+    color: #F411A8;
+}
+
+* /deep/ .mat-form-field.mat-focused .mat-form-field-ripple{
+    background-color: #F411A8;
+}
+
+* /deep/ .mat-input-element {
+    caret-color: #F411A8;
+}
